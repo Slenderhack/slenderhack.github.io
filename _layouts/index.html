@@ -7,7 +7,8 @@ layout: default
   {% include pagination-newer.html %}
   {% endcomment %}
   {{ content }}
-
+  
+  {% comment %}
   {% for post in paginator.posts %}
   <article class="post-body">
     <h2 class="post-title">
@@ -38,6 +39,8 @@ layout: default
     {% endif %}
   </article>
   {% endfor %}
+  <!-- comentamos el for pues no nos interesa que se muestren los post solo queremos la primera pagina -->
+  {% endcomment %} 
 
   {% comment %}
   {% include pagination-older.html %} <!-- esta linea en si se debe eliminar-->
