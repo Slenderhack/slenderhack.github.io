@@ -5,7 +5,7 @@ highlighter:      rouge
 # Setup
 title:            Menu
 tagline:          'A Jekyll theme'
-description:      'Esto es Mexíco | El sazón'
+description:      'Esto es Mexíco | El sazón de Mama'
 url:              https://fongandrew.github.io
 baseurl:          '/'
                   # the optional subpath of your site, e.g. "/blog"
