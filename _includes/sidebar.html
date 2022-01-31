@@ -15,9 +15,11 @@
   {% if site.version %}
     <span class="site-version">Currently v{{ site.version }}</span>
   {% endif %}
+
   {% comment %}
-    {% include sidebar-icon-links.html %} esto esconde todos los los iconos de la sidebar
+    {% include sidebar-icon-links.html %} esto esconde todos los los iconos de la sidebar <!-- linea comentada -->
     {% endcomment %}
-  {% include sidebar-icon-links.html %}
+  
+    {% include sidebar-icon-links.html %}
   {% include copyright.html %}
 </div>
